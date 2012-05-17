@@ -2,7 +2,7 @@
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     fni@missioncriticalit.com
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2012-05-17 Thu 23:55 Fabrice on MEDIACENTER>
+#+Time-stamp: <2012-05-18 Fri 00:04 Fabrice on MEDIACENTER>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:
 #+LANGUAGE:  en_US
@@ -11,9 +11,8 @@
 
 * Download
 
-Get the full Git repository at
-https://fniessen@github.com/fniessen/color-theme-leuven.git using the
-following command:
+Get the full Git repository at https://github.com/fniessen/color-theme-leuven
+using the following command:
 
 #+begin_src sh
 git clone git://github.com/fniessen/color-theme-leuven.git
@@ -21,15 +20,16 @@ git clone git://github.com/fniessen/color-theme-leuven.git
 
 * Installation
 
-1. Download and install [[http://www.nongnu.org/color-theme/][color-theme]] by adding this to your Emacs init file
-   (usually =~/.emacs=).
-   #+begin_src emacs-lisp
-   (add-to-list 'load-path "/path/to/color-theme-6.6.0/")
-   (require 'color-theme)
-   #+end_src
-2. Download and install [[https://github.com/fniessen/color-theme-leuven][color-theme-leuven]].
-   #+begin_src emacs-lisp
-   (add-to-list 'load-path "/path/to/color-theme-leuven/")
-   (require 'color-theme-leuven)
-   #+end_src
-3. Restart Emacs.
+1. Download [[http://www.nongnu.org/color-theme/][color-theme]].
+2. Download [[https://github.com/fniessen/color-theme-leuven][color-theme-leuven]].
+
+Add this to your Emacs init file (usually =~/.emacs=):
+
+#+begin_src emacs-lisp
+(add-to-list 'load-path "/path/to/color-theme-6.6.0/")
+(require 'color-theme)
+(add-to-list 'load-path "/path/to/color-theme-leuven/")
+(require 'color-theme-leuven)
+#+end_src
+
+Restart Emacs.
