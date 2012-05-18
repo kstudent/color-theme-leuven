@@ -1,7 +1,7 @@
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     fni@missioncriticalit.com
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2012-05-18 Fri 23:24 Fabrice on MEDIACENTER>
+#+Time-stamp: <2012-05-18 Fri 23:48 Fabrice on MEDIACENTER>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
@@ -10,7 +10,9 @@
 
 ** Screenshots
 
-[[./fontified-src-code-blocks.png][Fontified source code blocks]]
+Fontified source code blocks:
+
+[[file:./fontified-src-code-blocks.png]]
 
 ** Download
 
