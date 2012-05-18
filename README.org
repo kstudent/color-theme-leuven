@@ -1,7 +1,7 @@
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     fni@missioncriticalit.com
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2012-05-18 Fri 21:14 Fabrice on MEDIACENTER>
+#+Time-stamp: <2012-05-18 Fri 21:22 Fabrice on MEDIACENTER>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
@@ -9,6 +9,8 @@
 * Color-theme-leuven
 
 ** Screenshots
+
+Coming soon...
 
 ** Download
 
@@ -21,22 +23,23 @@ git clone git://github.com/fniessen/color-theme-leuven.git
 
 ** Installation
 
-1. Download and install [[http://www.nongnu.org/color-theme/][color-theme]]. Add this to your Emacs init file (usually
-   =~/.emacs=):
+1. Download [[http://www.nongnu.org/color-theme/][color-theme]].
+
+2. Install it, by adding this to your Emacs init file (usually =~/.emacs=):
 
    #+begin_src emacs-lisp
    (add-to-list 'load-path "/path/to/color-theme-6.6.0")
    (require 'color-theme)
    #+end_src
 
-2. Download and install [[https://github.com/fniessen/color-theme-leuven][color-theme-leuven]]:
+3. Download and install [[https://github.com/fniessen/color-theme-leuven][color-theme-leuven]]:
 
    #+begin_src emacs-lisp
    (add-to-list 'load-path "/path/to/color-theme-leuven")
    (require 'color-theme-leuven)
    #+end_src
 
-3. Restart Emacs.
+4. Restart Emacs.
 
 ** License
 
