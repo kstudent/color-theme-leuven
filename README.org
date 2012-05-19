@@ -1,12 +1,18 @@
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     fni@missioncriticalit.com
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2012-05-18 Fri 23:48 Fabrice on MEDIACENTER>
+#+Time-stamp: <2012-05-20 Sun 00:37 Fabrice on MEDIACENTER>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
 
 * Color-theme-leuven
+
+Looking for an awesome Emacs color theme?  Here's the place to find one!
+
+Welcome to the Leuven color theme, an elegant theme for light backgrounds,
+with built-in style for many components such as Org-mode, Gnus, Dired+ and
+EDiff. Make it yours!
 
 ** Screenshots
 
