@@ -1,7 +1,7 @@
 ;;; color-theme-leuven.el --- Light, but colorful color theme
 
 ;; Copyright (C) 2003-2012 Fabrice Niessen
-;; Time-stamp: <2012-05-02 Wed 14:23 Fabrice on MEDIACENTER>
+;; Time-stamp: <2012-06-20 Wed 11:05 Fabrice on MEDIACENTER>
 
 ;; Author: Fabrice Niessen <fni@missioncriticalit.com>
 ;; Keywords: emacs, color theme, config
@@ -29,7 +29,6 @@
 ;;* TODO:
 
 ;; - Have a look at http://websitetips.com/colortools/sitepro/
-;; - Remove inherit properties
 ;; - See [[http://www.codestyle.org/css/font-family/sampler-CombinedResults.shtml][The most common fonts]]
 
 ;;* Code:
@@ -402,6 +401,7 @@
        (helm-dir-priv ((t (:foreground "dark red" :background "light grey"))))  ;; why not `directory' face?
        (helm-file-name ((t (:foreground "blue"))))
        (helm-gentoo-match-face ((t (:foreground "red"))))
+       (helm-grep-running ((t (:weight bold :foreground "white"))))
        (helm-isearch-match ((t (:background "#CCFFCC"))))
        (helm-match ((t ,match)))
        (helm-overlay-line-face ((t (:underline t :foreground "white" :background "IndianRed4"))))
@@ -409,6 +409,7 @@
        (helm-source-header ((t (:family "Sans Serif" :height 1.3 :weight bold :foreground "white" :background "#666699"))))
        (helm-visible-mark ((t ,marked-line)))
        (helm-w3m-bookmarks-face ((t (:underline t :foreground "cyan1"))))
+
        (html-helper-bold-face ((t (:weight bold :foreground "black"))))
        (html-helper-italic-face ((t (:slant italic :foreground "black"))))
        (html-helper-underline-face ((t (:underline t :foreground "black"))))
@@ -738,7 +739,7 @@
 ;; Local Variables:
 ;; ispell-local-dictionary: "en_US"
 ;; mode: outline-minor
-;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode))
+;; eval: (when (locate-library "rainbow-mode") (require 'rainbow-mode) (rainbow-mode))
 ;; End:
 
 ;;; color-theme-leuven.el ends here
