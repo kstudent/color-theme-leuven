@@ -1,7 +1,7 @@
 ;;; color-theme-leuven.el --- Light, but colorful color theme
 
 ;; Copyright (C) 2003-2012 Fabrice Niessen
-;; Time-stamp: <2012-06-20 Wed 11:05 Fabrice on MEDIACENTER>
+;; Time-stamp: <2012-06-22 Fri 09:49 Fabrice on MEDIACENTER>
 
 ;; Author: Fabrice Niessen <fni@missioncriticalit.com>
 ;; Keywords: emacs, color theme, config
@@ -71,7 +71,7 @@
        (symlink '(:foreground "deep sky blue"))
        (vc-branch '(:box (:line-width 1 :color "#00CC33") :foreground "black" :background "#AAFFAA"))
        (mail-header-name '(:weight bold :foreground "black"))
-       (subject '(:weight bold :foreground "#FF6633"))
+       (subject '(:weight bold :foreground "#CF5D60"))
        (region '(:background "#D2D9E0"))
        )
 
@@ -348,7 +348,7 @@
        (gnus-group-mail-1-face ((t (:weight bold :foreground "#FF50B0"))))
        (gnus-group-mail-2-empty-face ((t (:foreground "#660066"))))
        (gnus-group-mail-2-face ((t (:weight bold :foreground "#FF0066"))))
-       (gnus-group-mail-3-empty-face ((t (:foreground "gray50"))))
+       (gnus-group-mail-3-empty-face ((t (:foreground "#808080"))))
        (gnus-group-mail-3-face ((t (:weight bold :foreground "black"))))
        (gnus-group-mail-low-empty-face ((t ,cancel)))
        (gnus-group-mail-low-face ((t ,cancel)))
@@ -356,13 +356,13 @@
        (gnus-group-news-1-face ((t (:weight bold :foreground "#FF50B0"))))
        (gnus-group-news-2-empty-face ((t (:foreground "#660066"))))
        (gnus-group-news-2-face ((t (:weight bold :foreground "#FF0066"))))
-       (gnus-group-news-3-empty-face ((t (:foreground "gray50"))))
+       (gnus-group-news-3-empty-face ((t (:foreground "#808080"))))
        (gnus-group-news-3-face ((t (:weight bold :foreground "black"))))
        (gnus-group-news-4-empty-face ((t (:foreground "#990000"))))
        (gnus-group-news-4-face ((t (:weight bold :foreground "#FF0000"))))
        (gnus-group-news-5-empty-face ((t (:foreground "#000099"))))
        (gnus-group-news-5-face ((t (:weight bold :foreground "#FF0099"))))
-       (gnus-group-news-6-empty-face ((t (:foreground "gray50"))))
+       (gnus-group-news-6-empty-face ((t (:foreground "#808080"))))
        (gnus-group-news-6-face ((t (:weight bold :foreground "gray50"))))
        (gnus-header-content-face ((t (:family "Sans Serif" :foreground "#786FB4"))))
        (gnus-header-from-face ((t (:family "Sans Serif" :foreground "blue"))))
@@ -374,19 +374,23 @@
        (gnus-signature-face ((t (:foreground "#7F7F7F"))))
        (gnus-splash-face ((t (:foreground "#FF8C00"))))
        (gnus-summary-cancelled-face ((t ,cancel)))
-       (gnus-summary-high-ancient-face ((t (:weight normal :foreground "#1A44B6" :background "#E0E0E0"))))
-       (gnus-summary-high-read-face ((t (:weight normal :foreground "#1A44B6" :background "#E0E0E0"))))
-       (gnus-summary-high-ticked-face ((t (:weight normal :inverse-video t :foreground "#009900"))))
-       (gnus-summary-high-unread-face ((t (:weight normal :foreground "#1A44B6"))))
-       (gnus-summary-low-ancient-face ((t (:slant italic :foreground "gray50" :background "#E0E0E0"))))
-       (gnus-summary-low-read-face ((t (:slant italic :foreground "gray50" :background "#E0E0E0"))))
-       (gnus-summary-low-ticked-face ((t (:slant italic :inverse-video t :foreground "#009900"))))
-       (gnus-summary-low-unread-face ((t (:slant italic :foreground "gray50"))))
-       (gnus-summary-normal-ancient-face ((t (:foreground "black" :background "#E0E0E0"))))
-       (gnus-summary-normal-read-face ((t (:foreground "black" :background "#E0E0E0"))))
-       (gnus-summary-normal-ticked-face ((t (:inverse-video t :foreground "#FD8008")))) ;; #009900
+
+       (gnus-summary-high-ancient-face ((t (:weight normal :foreground "#808080" :background "#FFFFE6"))))
+       (gnus-summary-high-read-face ((t (:weight normal :foreground "#808080" :background "#FFFFE6"))))
+       (gnus-summary-high-ticked-face ((t (:weight normal :foreground "black" :background "#E7AEB0"))))
+       (gnus-summary-high-unread-face ((t (:weight normal :foreground "black" :background "#FFFFCC"))))
+
+       (gnus-summary-low-ancient-face ((t (:slant italic :foreground "gray55"))))
+       (gnus-summary-low-read-face ((t (:slant italic :foreground "gray55" :background "#E0E0E0"))))
+       (gnus-summary-low-ticked-face ((t (:slant italic :foreground "black" :background "#E7AEB0"))))
+       (gnus-summary-low-unread-face ((t (:slant italic :foreground "black"))))
+
+       (gnus-summary-normal-ancient-face ((t (:foreground "#808080"))))
+       (gnus-summary-normal-read-face ((t (:foreground "#808080"))))
+       (gnus-summary-normal-ticked-face ((t (:foreground "black" :background "#E7AEB0"))))
        (gnus-summary-normal-unread-face ((t (:foreground "black"))))
-       (gnus-summary-selected-face ((t (:background "#FFD0D0" :underline t))))
+
+       (gnus-summary-selected-face ((t (:foreground "black" :background "#FFD0D0" :underline t))))
        (gnus-x-face ((t (:foreground "black" :background "white"))))
 
        (header-line ((t (:weight bold :underline "black" :overline "black" :foreground "black" :background "#FFFF88"))))
