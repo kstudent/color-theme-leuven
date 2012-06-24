@@ -1,7 +1,7 @@
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     fni@missioncriticalit.com
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2012-05-21 Mon 11:14 Fabrice on MEDIACENTER>
+#+Time-stamp: <2012-06-24 Sun 14:59 Fabrice on MEDIACENTER>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
@@ -25,9 +25,9 @@ Fontified source code blocks:
 Get the full Git repository at https://github.com/fniessen/color-theme-leuven
 using the following command:
 
-#+begin_src sh
+#+BEGIN_SRC sh
 git clone git://github.com/fniessen/color-theme-leuven.git
-#+end_src
+#+END_SRC
 
 ** Installation
 
