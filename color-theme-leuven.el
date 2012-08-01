@@ -1,7 +1,7 @@
 ;;; color-theme-leuven.el --- Light, but colorful color theme
 
 ;; Copyright (C) 2003-2012 Fabrice Niessen
-;; Time-stamp: <2012-06-22 Fri 09:49 Fabrice on MEDIACENTER>
+;; Time-stamp: <2012-08-01 Wed 10:04 Fabrice on MEDIACENTER>
 
 ;; Author: Fabrice Niessen <fni@missioncriticalit.com>
 ;; Keywords: emacs, color theme, config
@@ -403,6 +403,12 @@
        (helm-candidate-number ((t (:foreground "black" :background "#FFFF66"))))
        (helm-dir-heading ((t (:foreground "blue" :background "pink"))))
        (helm-dir-priv ((t (:foreground "dark red" :background "light grey"))))  ;; why not `directory' face?
+       (helm-ff-directory ((t ,directory)))
+       (helm-ff-executable ((t (:foreground "green3" :background "white"))))
+       (helm-ff-file ((t (:foreground "black"))))
+       (helm-ff-invalid-symlink ((t (:foreground "yellow" :background "red"))))
+       ;; (helm-ff-prefix
+       (helm-ff-symlink ((t ,symlink)))
        (helm-file-name ((t (:foreground "blue"))))
        (helm-gentoo-match-face ((t (:foreground "red"))))
        (helm-grep-running ((t (:weight bold :foreground "white"))))
@@ -420,7 +426,7 @@
        (html-tag-face ((t (:foreground "blue"))))
 
        ;; Info / info+
-       (info-file ((t (:family "Sans Serif" :height 1.8 :weight bold :box (:line-width 1 :color "#0000CC") :foreground "cornflower blue" :background "LightSteelBlue1")))) 
+       (info-file ((t (:family "Sans Serif" :height 1.8 :weight bold :box (:line-width 1 :color "#0000CC") :foreground "cornflower blue" :background "LightSteelBlue1"))))
        (info-header-node ((t (:underline t :foreground "orange"))))  ; nodes in header
        (info-header-xref ((t (:underline t :foreground "dodger blue"))))  ; cross references in header
        (info-menu-header ((t (:family "Sans Serif" :height 1.6 :weight bold :underline t :foreground "#00CC00"))))  ; menu titles (headers) -- major topics
