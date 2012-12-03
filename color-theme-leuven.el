@@ -1,9 +1,9 @@
 ;;; color-theme-leuven.el --- Light, but colorful color theme
 
 ;; Copyright (C) 2003-2012 Fabrice Niessen
-;; Time-stamp: <2012-08-18 Sat 13:02 Fabrice on MEDIACENTER>
+;; Time-stamp: <2012-12-03 Mon 21:36>
 
-;; Author: Fabrice Niessen <fni@missioncriticalit.com>
+;; Author: Fabrice Niessen <(concat "fniessen" at-sign "pirilampo.org")>
 ;; Keywords: emacs, color theme, config
 
 ;; $Revision: 7518 $
