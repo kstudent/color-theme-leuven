@@ -1,7 +1,7 @@
 ;;; color-theme-leuven.el --- Light, but colorful color theme
 
 ;; Copyright (C) 2003-2012 Fabrice Niessen
-;; Time-stamp: <2012-08-01 Wed 10:04 Fabrice on MEDIACENTER>
+;; Time-stamp: <2012-08-18 Sat 13:02 Fabrice on MEDIACENTER>
 
 ;; Author: Fabrice Niessen <fni@missioncriticalit.com>
 ;; Keywords: emacs, color theme, config
@@ -53,7 +53,6 @@
        (diff-none '(:foreground "gray33"))
        (diff-removed '(:foreground "#A60000" :background "#FFDDDD"))
        (directory '(:weight bold :foreground "blue" :background "#FFFFD2"))
-       ;; (highlight-line '(:underline "#CACACA" :foreground "#575757" :background "#FFFECD")) ;; was background #C6C3C6
        (highlight-line '(:inverse-video t))
        (link '(:underline t :foreground "#006DAF"))
        (marked-line '(:weight bold :foreground "white" :background "red"))
@@ -153,6 +152,8 @@
 
        (comint-highlight-input ((t ,code-block)))
        (comint-highlight-prompt ((t (:foreground "#008ED1" :background "#EAEAFF"))))
+
+       (compare-windows ((t (:background "#FFFF00"))))
 
        ;; used in modeline by grep and compile
        (compilation-error ((t (:weight bold :foreground "red"))))
@@ -394,11 +395,12 @@
        (gnus-x-face ((t (:foreground "black" :background "white"))))
 
        (header-line ((t (:weight bold :underline "black" :overline "black" :foreground "black" :background "#FFFF88"))))
-       (highlight ((t ,highlight-line)))
+       (highlight ((t (:background "#FFFF00"))))
        (highlight-symbol-face ((t (:background "#FFFFA0"))))
        (hl-line ((t ,highlight-line)))
 
        ;; helm
+       (helm-action ((t (:foreground "#335EA8"))))
        (helm-bookmarks-su-face ((t (:foreground "red"))))
        (helm-candidate-number ((t (:foreground "black" :background "#FFFF66"))))
        (helm-dir-heading ((t (:foreground "blue" :background "pink"))))
@@ -508,7 +510,7 @@
        (mumamo-background-chunk-major ((t (:background "white"))))
 
        ;; non-breaking space
-       (nobreak-space ((t (:background "#C6C3C6"))))
+       (nobreak-space ((t (:background "#CCE8F6"))))
 
        (nxml-attribute-local-name-face ((t (:foreground "magenta"))))
        (nxml-attribute-value-delimiter-face ((t (:foreground "green4"))))
@@ -551,7 +553,7 @@
        ;; (org-column ((t (:background "gold" :height 79 :family "Consolas"))))
        (org-column-title ((t ,column)))
        ;; (org-column-title ((t (:background "gold" :height 79 :family "Consolas"))))
-       (org-date ((t (:underline t :foreground "purple"))))
+       (org-date ((t (:underline t :foreground "#00459E"))))
        (org-default ((t (:foreground "#333333"))))
        (org-dim ((t (:foreground "#AAAAAA"))))
        (org-document-info ((t (:foreground "#484848"))))
@@ -608,18 +610,10 @@
        (outline-7 ((t ,ol7)))
        (outline-8 ((t ,ol8)))
 
-       ;; pabbrev
-       (pabbrev-debug-display-label-face ((t (:background "chartreuse"))))
-       (pabbrev-suggestions-label-face ((t (:weight bold :foreground "white" :background "purple"))))
-       (pabbrev-suggestions-face ((t (:weight bold :foreground "white" :background "red"))))
-
        ;; parentheses
        (paren-face-match ((t (:foreground "white" :background "#FF3F3F"))))
        (paren-face-mismatch ((t (:weight bold :foreground "white" :background "purple"))))
        (paren-face-no-match ((t (:weight bold :foreground "white" :background "purple"))))
-
-       (pesche-space ((t (:background "lemon chiffon"))))
-       (pesche-tab ((t (:background "gold"))))
 
        ;; pretty print ^L
        (pp^L-highlight ((t (:strike-through t))))
@@ -676,9 +670,6 @@
        ;; tooltip
        (tooltip ((t (:foreground "black" :background "light yellow"))))
 
-       ;; show trailing whitespace
-       (trailing-whitespace ((t (:background "#F6EBFE"))))
-
        (traverse-match-face ((t (:weight bold :foreground "blue violet"))))
 
        (vc-annotate-face-FF3F3F ((t (:foreground "#FF3F3F" :background "black"))))
@@ -725,6 +716,7 @@
        ;; (w3m-tab-selected-retrieving-face ((t (:background "gray85" :foreground "white" :box (:line-width -1 :style nil)))))
        ;; (w3m-tab-unselected-face ((t (:foreground "gray20" :background "gray70" :box (:line-width 1 :style nil)))))
        ;; (w3m-tab-unselected-retrieving-face ((t (:foreground "white" :background "gray50" :box (:line-width -1 :style nil)))))
+
 
        (which-func ((t (:weight bold :foreground "white"))))
 
