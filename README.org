@@ -1,8 +1,8 @@
-#+TITLE:     Leuven color theme for Emacs
+#+TITLE:     This project is DEPRECATED
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2014-09-10 Wed 17:17>
+#+Time-stamp: <2014-09-10 Wed 17:24>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
@@ -60,4 +60,4 @@ git clone git://github.com/fniessen/color-theme-leuven.git
 
 ** License
 
-Copyright (C) 2003-2014 Fabrice Niessen
+Copyright (C) 2003-2013 Fabrice Niessen
