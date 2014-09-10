@@ -2,7 +2,7 @@
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2014-09-10 Wed 17:13>
+#+Time-stamp: <2014-09-10 Wed 17:17>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
@@ -17,7 +17,10 @@ Welcome to the Leuven color theme, an elegant theme for light backgrounds,
 with built-in style for many components such as Org-mode, Gnus, Dired+ and
 EDiff. Make it yours!
 
-@@html:<script src="http://platform.twitter.com/widgets.js"></script><a href="https://twitter.com/share" class="twitter-share-button" data-via="f_niessen">Tweet</a>@@
+#+begin_html
+<script src="http://platform.twitter.com/widgets.js"></script>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="f_niessen">Tweet</a>
+#+end_html
 
 ** Screenshots
 
