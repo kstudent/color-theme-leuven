@@ -1,10 +1,13 @@
+#+TITLE:     Leuven color theme for Emacs
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2013-04-16 Tue 10:13>
+#+Time-stamp: <2014-09-10 Wed 17:13>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
+
+#+SETUPFILE: ~/src/org-style/setup/bigblow-pirilampo.setup
 
 * Color-theme-leuven
 
@@ -14,10 +17,13 @@ Welcome to the Leuven color theme, an elegant theme for light backgrounds,
 with built-in style for many components such as Org-mode, Gnus, Dired+ and
 EDiff. Make it yours!
 
+@@html:<script src="http://platform.twitter.com/widgets.js"></script><a href="https://twitter.com/share" class="twitter-share-button" data-via="f_niessen">Tweet</a>@@
+
 ** Screenshots
 
 Fontified source code blocks:
 
+#+ATTR_HTML: :width 640
 [[file:./fontified-src-code-blocks.png]]
 
 ** Download
@@ -51,4 +57,4 @@ git clone git://github.com/fniessen/color-theme-leuven.git
 
 ** License
 
-Copyright (C) 2003-2013 Fabrice Niessen
+Copyright (C) 2003-2014 Fabrice Niessen
