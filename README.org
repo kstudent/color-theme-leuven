@@ -1,8 +1,7 @@
-#+TITLE:     This project is DEPRECATED since Emacs 24 (see https://github.com/fniessen/emacs-leuven-theme for latest version)
+#+TITLE:     This project is DEPRECATED under Emacs 24 (replaced by fniessen/emacs-leuven-theme)
 #+AUTHOR:    Fabrice Niessen
 #+EMAIL:     (concat "fniessen" at-sign "pirilampo.org")
 #+DATE:      2012-05-17 Thu
-#+Time-stamp: <2014-09-12 Fri 13:40>
 #+DESCRIPTION: Emacs color theme for light background
 #+KEYWORDS:  emacs, color theme, faces
 #+LANGUAGE:  en_US
